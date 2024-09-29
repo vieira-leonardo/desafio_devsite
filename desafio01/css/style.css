@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    font-size: 16px;
+}
+
+section {
+    display: none;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#cadastro {
+    display: block;
+}
+
+h1 {
+    font-size: 26px;
+    color: #bb86fc;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #303030;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #a1a1a1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #03dac6;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #018786;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border-left: 5px solid #bb86fc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #333333;
+}
+
+button#mostrarCadastro {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #bb86fc;
+    color: #000;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#mostrarCadastro:hover {
+    background-color: #9b59b6;
+}
+
+li button {
+    background-color: #cf6679;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #b24d59;
+}
